@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="e3b05a3547ac4310e8f34d05516d4367" label="VIsit Log" max_length="40" name="x_1795713_visito_0_visit_log" type="collection">
+        <element choice="1" label="Status" mandatory="true" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Checked Out" sequence="2" value="Checked Out"/>
+                <element inactive_on_update="false" label="Checked In" sequence="1" value="Checked In"/>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="Requested"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="Cancelled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Check-in Time" max_length="40" name="check_in_time" type="glide_date_time"/>
+        <element label="Special Instructions" max_length="4000" name="special_instructions" type="string"/>
+        <element label="Visitor" max_length="32" name="visitor" reference="x_1795713_visito_0_visitor" type="reference"/>
+        <element label="Check-out Time" max_length="40" name="check_out_time" type="glide_date_time"/>
+        <element label="Host" max_length="32" name="host" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="host"/>
+        </index>
+        <index name="index2">
+            <element name="visitor"/>
+        </index>
+    </element>
+</database>

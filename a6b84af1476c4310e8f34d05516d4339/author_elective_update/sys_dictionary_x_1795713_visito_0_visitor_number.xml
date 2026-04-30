@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="number" table="x_1795713_visito_0_visitor">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Number</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value>javascript:global.getNextObjNumberPadded();</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1795713_visito_0_visitor</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 06:22:25</sys_created_on>
+        <sys_id>da7bce39476c4310e8f34d05516d436b</sys_id>
+        <sys_name>Number</sys_name>
+        <sys_package display_value="Visitor Pass Manager" source="x_1795713_visito_0">a6b84af1476c4310e8f34d05516d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">a6b84af1476c4310e8f34d05516d4339</sys_scope>
+        <sys_update_name>sys_dictionary_x_1795713_visito_0_visitor_number</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 06:22:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitor Pass Manager">a6b84af1476c4310e8f34d05516d4339</application>
+        <file_path/>
+        <instance_id>6b7103e9fb2c4398363cf633beefdc14</instance_id>
+        <instance_name>dev394295</instance_name>
+        <name>sys_dictionary_x_1795713_visito_0_visitor_number</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="number" table="x_1795713_visito_0_visitor"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Number</column_label><comments/><create_roles/><default_value>javascript:global.getNextObjNumberPadded();</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>number</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1795713_visito_0_visitor</name><next_element/><primary>false</primary><read_only>false</read_only><read_only_option/><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-30 06:22:25</sys_created_on><sys_id>da7bce39476c4310e8f34d05516d436b</sys_id><sys_name>Number</sys_name><sys_package display_value="Visitor Pass Manager" source="x_1795713_visito_0">a6b84af1476c4310e8f34d05516d4339</sys_package><sys_policy/><sys_scope display_value="Visitor Pass Manager">a6b84af1476c4310e8f34d05516d4339</sys_scope><sys_update_name>sys_dictionary_x_1795713_visito_0_visitor_number</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-30 06:22:25</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-741352579</payload_hash>
+        <record_name>VIsitor.Number</record_name>
+        <reverted_from/>
+        <source>2f89c275476c4310e8f34d05516d43fa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 06:22:25</sys_created_on>
+        <sys_id>567bce39476c4310e8f34d05516d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ddd0d8b350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 06:22:25</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>967bce39856c4310b31134209d807797</update_guid>
+        <update_guid_history>967bce39856c4310b31134209d807797:-741352579</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 06:31:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>b137787622a542589fb4706aab96d410</sys_id>
+        <sys_metadata>da7bce39476c4310e8f34d05516d436b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Number</sys_name>
+        <sys_package display_value="Visitor Pass Manager" source="x_1795713_visito_0">a6b84af1476c4310e8f34d05516d4339</sys_package>
+        <sys_parent display_value="">0a7bce39476c4310e8f34d05516d4317</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">a6b84af1476c4310e8f34d05516d4339</sys_scope>
+        <sys_scope_delete display_value="">671f856ac3a44ba2b706d1f1f473bc71</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1795713_visito_0_visitor_number</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1795713_visito_0_visitor_number">567bce39476c4310e8f34d05516d4398</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 06:31:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 06:22:32</sys_created_on>
+        <sys_id>777b8279476c4310e8f34d05516d4317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1795713_visito_0_visitor.x_1795713_visito_0.u_visitor_manager</sys_name>
+        <sys_package display_value="Visitor Pass Manager" source="x_1795713_visito_0">a6b84af1476c4310e8f34d05516d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">a6b84af1476c4310e8f34d05516d4339</sys_scope>
+        <sys_security_acl display_value="x_1795713_visito_0_visitor">3b7b8279476c4310e8f34d05516d430e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_777b8279476c4310e8f34d05516d4317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 06:22:32</sys_updated_on>
+        <sys_user_role display_value="x_1795713_visito_0.u_visitor_manager" name="x_1795713_visito_0.u_visitor_manager">137b4279476c4310e8f34d05516d431e</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitor Pass Manager">a6b84af1476c4310e8f34d05516d4339</application>
+        <file_path/>
+        <instance_id>6b7103e9fb2c4398363cf633beefdc14</instance_id>
+        <instance_name>dev394295</instance_name>
+        <name>sys_security_acl_role_777b8279476c4310e8f34d05516d4317</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-30 06:22:32</sys_created_on><sys_id>777b8279476c4310e8f34d05516d4317</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1795713_visito_0_visitor.x_1795713_visito_0.u_visitor_manager</sys_name><sys_package display_value="Visitor Pass Manager" source="x_1795713_visito_0">a6b84af1476c4310e8f34d05516d4339</sys_package><sys_policy/><sys_scope display_value="Visitor Pass Manager">a6b84af1476c4310e8f34d05516d4339</sys_scope><sys_security_acl display_value="x_1795713_visito_0_visitor">3b7b8279476c4310e8f34d05516d430e</sys_security_acl><sys_update_name>sys_security_acl_role_777b8279476c4310e8f34d05516d4317</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-30 06:22:32</sys_updated_on><sys_user_role display_value="x_1795713_visito_0.u_visitor_manager" name="x_1795713_visito_0.u_visitor_manager">137b4279476c4310e8f34d05516d431e</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1748049508</payload_hash>
+        <record_name>x_1795713_visito_0_visitor.x_1795713_visito_0.u_visitor_manager</record_name>
+        <reverted_from/>
+        <source>2f89c275476c4310e8f34d05516d43fa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 06:22:32</sys_created_on>
+        <sys_id>737b8279476c4310e8f34d05516d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ddd0da4e70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 06:22:32</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>337b8279b26c4310b68b2503f5e06d6a</update_guid>
+        <update_guid_history>337b8279b26c4310b68b2503f5e06d6a:1748049508</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1795713_visito_0_visitor.x_1795713_visito_0.u_visitor_manager">bb7d067d476c4310e8f34d05516d433e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 06:31:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>b921681653674f898dd6e7adf14c6341</sys_id>
+        <sys_metadata>777b8279476c4310e8f34d05516d4317</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1795713_visito_0_visitor.x_1795713_visito_0.u_visitor_manager</sys_name>
+        <sys_package display_value="Visitor Pass Manager" source="x_1795713_visito_0">a6b84af1476c4310e8f34d05516d4339</sys_package>
+        <sys_parent display_value="">3b7b8279476c4310e8f34d05516d430e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">a6b84af1476c4310e8f34d05516d4339</sys_scope>
+        <sys_scope_delete display_value="">671f856ac3a44ba2b706d1f1f473bc71</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_777b8279476c4310e8f34d05516d4317</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_777b8279476c4310e8f34d05516d4317">737b8279476c4310e8f34d05516d436b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 06:31:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

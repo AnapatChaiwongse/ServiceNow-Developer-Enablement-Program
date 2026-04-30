@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="139d4a7d476c4310e8f34d05516d43d9" extends="task" label="Visitor" max_length="40" name="x_1795713_visito_0_visitor" type="collection">
+        <element label="Mobile Phone" max_length="40" name="mobile_phone" type="phone_number_e164"/>
+        <element display="true" label="First Name" max_length="100" name="first_name" type="string"/>
+        <element label="Host" max_length="32" name="host" reference="sys_user" type="reference"/>
+        <element label="Last Name" max_length="100" name="last_name" type="string"/>
+        <element choice="1" label="Status" mandatory="true" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Checked Out" sequence="2" value="Checked Out"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="Cancelled"/>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="Requested"/>
+                <element inactive_on_update="false" label="Checked In" sequence="1" value="Checked In"/>
+            </choice>
+        </element>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <element label="Email" max_length="100" name="email" type="string"/>
+    </element>
+</database>
